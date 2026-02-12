@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Từ điển thuật ngữ ngân hàng RU–EN–VI</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="wrap">
+    <h1>Từ điển thuật ngữ ngân hàng RU–EN–VI</h1>
+    <p class="sub">
+      Tra cứu 100 thuật ngữ theo RU/EN/VI, domain, cấu tạo từ và tương đương. Nhấn vào 1 dòng để xem nghĩa khái niệm/ngữ dụng.
+    </p>
+
+    <div class="controls">
+      <div class="field">
+        <label for="q">Tìm kiếm</label>
+        <input id="q" type="search" placeholder="Gõ RU / EN / VI / viết tắt (VD: LCR, кредитный риск, rủi ro...)" />
+      </div>
+
+      <div class="field">
+        <label for="domain">Domain</label>
+        <select id="domain">
+          <option value="">Tất cả</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="eqType">EquivalenceType</label>
+        <select id="eqType">
+          <option value="">Tất cả</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="wfRu">WordFormation_RU</label>
+        <select id="wfRu">
+          <option value="">Tất cả</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="strength">EquivalenceStrength</label>
+        <select id="strength">
+          <option value="">Tất cả</option>
+        </select>
+      </div>
+
+      <div class="actions">
+        <button id="reset" type="button">Reset</button>
+      </div>
+    </div>
+
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <main class="wrap">
+    <div class="tableWrap">
+      <table>
+        <thead>
+          <tr>
+            <th>STT</th>
+            <th>RU</th>
+            <th>EN</th>
+            <th>VI</th>
+            <th>Domain</th>
+            <th>EquivalenceType</th>
+            <th>Strength</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <!-- Modal chi tiết -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modalCard" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+      <div class="modalHeader">
+        <div>
+          <div class="badge" id="mBadge"></div>
+          <h2 id="mTitle"></h2>
+        </div>
+        <button class="iconBtn" id="closeModal" type="button" aria-label="Đóng">×</button>
+      </div>
+
+      <div class="modalBody">
+        <div class="grid2">
+          <div class="kv">
+            <div class="k">RU</div>
+            <div class="v mono" id="mRU"></div>
+            <button class="smallBtn" data-copy="mRU" type="button">Copy</button>
+          </div>
+          <div class="kv">
+            <div class="k">EN</div>
+            <div class="v" id="mEN"></div>
+            <button class="smallBtn" data-copy="mEN" type="button">Copy</button>
+          </div>
+          <div class="kv">
+            <div class="k">VI</div>
+            <div class="v" id="mVI"></div>
+            <button class="smallBtn" data-copy="mVI" type="button">Copy</button>
+          </div>
+          <div class="kv">
+            <div class="k">Domain</div>
+            <div class="v" id="mDomain"></div>
+          </div>
+        </div>
+
+        <div class="grid3">
+          <div class="kv">
+            <div class="k">WordFormation_RU</div>
+            <div class="v" id="mWFRU"></div>
+          </div>
+          <div class="kv">
+            <div class="k">WordFormation_EN</div>
+            <div class="v" id="mWFEN"></div>
+          </div>
+          <div class="kv">
+            <div class="k">WordFormation_VI</div>
+            <div class="v" id="mWFVI"></div>
+          </div>
+        </div>
+
+        <hr />
+
+        <section class="section">
+          <h3>ConceptualMeaning (Nghĩa khái niệm)</h3>
+          <div class="box" id="mConcept"></div>
+        </section>
+
+        <section class="section">
+          <h3>PragmaticMeaning (Nghĩa ngữ dụng)</h3>
+          <div class="box" id="mPrag"></div>
+        </section>
+
+        <section class="section">
+          <h3>SemanticNote (Ghi chú ngữ nghĩa)</h3>
+          <div class="box" id="mNote"></div>
+        </section>
+      </div>
+
+      <div class="modalFooter">
+        <div class="hint">Mẹo: dùng filter để tạo “nhóm” cho phân tích Chương 2.</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
