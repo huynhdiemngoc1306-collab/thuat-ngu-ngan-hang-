@@ -5,59 +5,54 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Từ điển thuật ngữ ngân hàng RU–EN–VI</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="wrap">
-    <h1>Từ điển thuật ngữ ngân hàng RU–EN–VI</h1>
-    <p class="sub">
-      Tra cứu 100 thuật ngữ theo RU/EN/VI, domain, cấu tạo từ và tương đương. Nhấn vào 1 dòng để xem nghĩa khái niệm/ngữ dụng.
-    </p>
+  <header class="header">
+    <div class="wrap">
+      <h1>Từ điển thuật ngữ ngân hàng RU–EN–VI</h1>
+      <p class="sub">
+        Tra cứu 100 thuật ngữ theo RU/EN/VI, domain, cấu tạo từ và tương đương. Nhấn vào dòng để xem chi tiết.
+      </p>
 
-    <div class="controls">
-      <div class="field">
-        <label for="q">Tìm kiếm</label>
-        <input id="q" type="search" placeholder="Gõ RU / EN / VI / viết tắt (VD: LCR, кредитный риск, rủi ro...)" />
+      <div class="controls">
+        <div class="field">
+          <label for="q">Tìm kiếm</label>
+          <input id="q" type="search" placeholder="Gõ RU / EN / VI / viết tắt (VD: LCR, кредитный риск, rủi ro...)" />
+        </div>
+
+        <div class="field">
+          <label for="domain">Domain</label>
+          <select id="domain"><option value="">Tất cả</option></select>
+        </div>
+
+        <div class="field">
+          <label for="eqType">EquivalenceType</label>
+          <select id="eqType"><option value="">Tất cả</option></select>
+        </div>
+
+        <div class="field">
+          <label for="wfRu">WordFormation_RU</label>
+          <select id="wfRu"><option value="">Tất cả</option></select>
+        </div>
+
+        <div class="field">
+          <label for="strength">EquivalenceStrength</label>
+          <select id="strength"><option value="">Tất cả</option></select>
+        </div>
+
+        <button id="reset" class="btn reset-btn">Reset</button>
       </div>
 
-      <div class="field">
-        <label for="domain">Domain</label>
-        <select id="domain">
-          <option value="">Tất cả</option>
-        </select>
-      </div>
-
-      <div class="field">
-        <label for="eqType">EquivalenceType</label>
-        <select id="eqType">
-          <option value="">Tất cả</option>
-        </select>
-      </div>
-
-      <div class="field">
-        <label for="wfRu">WordFormation_RU</label>
-        <select id="wfRu">
-          <option value="">Tất cả</option>
-        </select>
-      </div>
-
-      <div class="field">
-        <label for="strength">EquivalenceStrength</label>
-        <select id="strength">
-          <option value="">Tất cả</option>
-        </select>
-      </div>
-
-      <div class="actions">
-        <button id="reset" type="button">Reset</button>
-      </div>
+      <div class="stats" id="stats"></div>
     </div>
-
-    <div class="stats" id="stats"></div>
   </header>
 
   <main class="wrap">
-    <div class="tableWrap">
-      <table>
+    <div class="table-container">
+      <table class="data-table">
         <thead>
           <tr>
             <th>RU</th>
@@ -66,11 +61,14 @@
             <th>Domain</th>
             <th>EquivalenceType</th>
             <th>Strength</th>
+            <th>ConceptualMeaning</th>
+            <th>PragmaticMeaning</th>
+            <th>SemanticNote</th>
           </tr>
         </thead>
         <tbody id="rows"></tbody>
       </table>
-      <div id="noResults" style="text-align:center; padding:30px; color:#888; font-style:italic; font-size:1.1rem; display:none;">
+      <div id="noResults" class="no-results">
         Chưa có kết quả. Hãy nhập từ khóa tìm kiếm hoặc chọn bộ lọc.
       </div>
     </div>
@@ -78,73 +76,54 @@
 
   <!-- Modal chi tiết -->
   <div class="modal" id="modal" aria-hidden="true">
-    <div class="modalCard" role="dialog" aria-modal="true" aria-labelledby="mTitle">
-      <div class="modalHeader">
-        <div>
-          <div class="badge" id="mBadge"></div>
-          <h2 id="mTitle"></h2>
-        </div>
-        <button class="iconBtn" id="closeModal" type="button" aria-label="Đóng">×</button>
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 id="mTitle"></h2>
+        <button class="close-btn" id="closeModal" aria-label="Đóng">×</button>
       </div>
 
-      <div class="modalBody">
-        <div class="grid2">
-          <div class="kv">
-            <div class="k">RU</div>
-            <div class="v mono" id="mRU"></div>
-            <button class="smallBtn" data-copy="mRU" type="button">Copy</button>
+      <div class="modal-body">
+        <div class="info-grid">
+          <div class="info-item">
+            <span class="label">RU</span>
+            <span class="value mono" id="mRU"></span>
+            <button class="copy-btn" data-copy="mRU">Copy</button>
           </div>
-          <div class="kv">
-            <div class="k">EN</div>
-            <div class="v" id="mEN"></div>
-            <button class="smallBtn" data-copy="mEN" type="button">Copy</button>
+          <div class="info-item">
+            <span class="label">EN</span>
+            <span class="value" id="mEN"></span>
+            <button class="copy-btn" data-copy="mEN">Copy</button>
           </div>
-          <div class="kv">
-            <div class="k">VI</div>
-            <div class="v" id="mVI"></div>
-            <button class="smallBtn" data-copy="mVI" type="button">Copy</button>
+          <div class="info-item">
+            <span class="label">VI</span>
+            <span class="value" id="mVI"></span>
+            <button class="copy-btn" data-copy="mVI">Copy</button>
           </div>
-          <div class="kv">
-            <div class="k">Domain</div>
-            <div class="v" id="mDomain"></div>
-          </div>
-        </div>
-
-        <div class="grid3">
-          <div class="kv">
-            <div class="k">WordFormation_RU</div>
-            <div class="v" id="mWFRU"></div>
-          </div>
-          <div class="kv">
-            <div class="k">WordFormation_EN</div>
-            <div class="v" id="mWFEN"></div>
-          </div>
-          <div class="kv">
-            <div class="k">WordFormation_VI</div>
-            <div class="v" id="mWFVI"></div>
+          <div class="info-item">
+            <span class="label">Domain</span>
+            <span class="value" id="mDomain"></span>
           </div>
         </div>
 
-        <hr />
+        <div class="details-grid">
+          <div class="detail-section">
+            <h3>ConceptualMeaning (Nghĩa khái niệm)</h3>
+            <div class="detail-content expandable-content" id="mConcept"></div>
+            <button class="toggle-btn" data-target="mConcept">Xem thêm</button>
+          </div>
 
-        <section class="section">
-          <h3>ConceptualMeaning (Nghĩa khái niệm)</h3>
-          <div class="box" id="mConcept"></div>
-        </section>
+          <div class="detail-section">
+            <h3>PragmaticMeaning (Nghĩa ngữ dụng)</h3>
+            <div class="detail-content expandable-content" id="mPrag"></div>
+            <button class="toggle-btn" data-target="mPrag">Xem thêm</button>
+          </div>
 
-        <section class="section">
-          <h3>PragmaticMeaning (Nghĩa ngữ dụng)</h3>
-          <div class="box" id="mPrag"></div>
-        </section>
-
-        <section class="section">
-          <h3>SemanticNote (Ghi chú ngữ nghĩa)</h3>
-          <div class="box" id="mNote"></div>
-        </section>
-      </div>
-
-      <div class="modalFooter">
-        <div class="hint">Mẹo: dùng filter để tạo “nhóm” cho phân tích Chương 2.</div>
+          <div class="detail-section">
+            <h3>SemanticNote (Ghi chú ngữ nghĩa)</h3>
+            <div class="detail-content expandable-content" id="mNote"></div>
+            <button class="toggle-btn" data-target="mNote">Xem thêm</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
