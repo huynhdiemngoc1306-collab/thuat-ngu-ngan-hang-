@@ -14,7 +14,7 @@ const closeModalEl = el("closeModal");
 
 const setText = (id, value) => { 
   const elem = el(id); 
-  if (elem) elem.textContent = value || ""; 
+  if (elem) elem.textContent = value || "không có kết quả"; 
 };
 
 function norm(str) {
@@ -63,7 +63,6 @@ function applyFilters() {
     if (wfRu && t.WordFormation_RU !== wfRu) return false;
     if (strength && t.EquivalenceStrength !== strength) return false;
 
-    // Chỉ lọc khi có từ khóa hoặc filter thay đổi
     if (!q && !domain && !eqType && !wfRu && !strength) return false;
 
     const hay = [
@@ -112,9 +111,9 @@ function renderTable() {
       <td>${escapeHtml(t.Domain)}</td>
       <td>${escapeHtml(t.EquivalenceType)}</td>
       <td>${escapeHtml(t.EquivalenceStrength)}</td>
-      <td>${escapeHtml(t.ConceptualMeaning || '(chưa điền)')}</td>
-      <td>${escapeHtml(t.PragmaticMeaning || '(chưa điền)')}</td>
-      <td>${escapeHtml(t.SemanticNote || '(chưa điền)')}</td>
+      <td>${escapeHtml(t.ConceptualMeaning || 'không có kết quả')}</td>
+      <td>${escapeHtml(t.PragmaticMeaning || 'không có kết quả')}</td>
+      <td>${escapeHtml(t.SemanticNote || 'không có kết quả')}</td>
     `;
     frag.appendChild(tr);
   });
@@ -135,9 +134,9 @@ function openModalByIndex(idx) {
   setText("mEN", t.EN);
   setText("mVI", t.VI);
   setText("mDomain", t.Domain);
-  setText("mConcept", t.ConceptualMeaning || "(chưa điền)");
-  setText("mPrag", t.PragmaticMeaning || "(chưa điền)");
-  setText("mNote", t.SemanticNote || "(chưa điền)");
+  setText("mConcept", t.ConceptualMeaning || "không có kết quả");
+  setText("mPrag", t.PragmaticMeaning || "không có kết quả");
+  setText("mNote", t.SemanticNote || "không có kết quả");
 
   modalEl.classList.add("show");
   modalEl.setAttribute("aria-hidden", "false");
