@@ -1,6 +1,6 @@
 [
   {
-    "STT": "1",
+    "STT": 1,
     "RU": "LCR",
     "EN": "Liquidity Coverage Ratio",
     "VI": "tỷ lệ bao phủ thanh khoản",
@@ -9,10 +9,13 @@
     "WordFormation_EN": "abbreviation",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Thuật ngữ viết tắt tiếng Anh, thường giữ nguyên trong tiếng Việt."
   },
   {
-    "STT": "2",
+    "STT": 2,
     "RU": "NPL",
     "EN": "non-performing loan (NPL)",
     "VI": "nợ xấu (NPL)",
@@ -21,10 +24,13 @@
     "WordFormation_EN": "abbreviation",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Viết tắt vay mượn từ tiếng Anh, dùng song song với “nợ xấu”."
   },
   {
-    "STT": "3",
+    "STT": 3,
     "RU": "NSFR",
     "EN": "Net Stable Funding Ratio",
     "VI": "tỷ lệ nguồn vốn ổn định ròng",
@@ -33,10 +39,13 @@
     "WordFormation_EN": "abbreviation",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Thuật ngữ viết tắt tiếng Anh, ít khi dịch đầy đủ."
   },
   {
-    "STT": "4",
+    "STT": 4,
     "RU": "SWIFT",
     "EN": "SWIFT",
     "VI": "SWIFT",
@@ -45,10 +54,13 @@
     "WordFormation_EN": "abbreviation",
     "WordFormation_VI": "vay mượn",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Tên riêng của hệ thống, không dịch nghĩa."
   },
   {
-    "STT": "5",
+    "STT": 5,
     "RU": "аккредитив",
     "EN": "letter of credit",
     "VI": "thư tín dụng",
@@ -57,10 +69,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "6",
+    "STT": 6,
     "RU": "акция",
     "EN": "share / stock",
     "VI": "cổ phiếu",
@@ -69,10 +84,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Thuật ngữ đa nghĩa, ngoài tài chính còn mang nghĩa “chiến dịch”."
   },
   {
-    "STT": "7",
+    "STT": 7,
     "RU": "андеррайтинг",
     "EN": "underwriting",
     "VI": "bảo lãnh phát hành",
@@ -81,10 +99,13 @@
     "WordFormation_EN": "derivation",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Thuật ngữ vay mượn từ tiếng Anh."
   },
   {
-    "STT": "8",
+    "STT": 8,
     "RU": "аудит",
     "EN": "audit",
     "VI": "kiểm toán",
@@ -93,10 +114,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "9",
+    "STT": 9,
     "RU": "базовая ставка",
     "EN": "base rate",
     "VI": "lãi suất cơ bản",
@@ -105,10 +129,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Cần phân biệt với “ключевая ставка” theo vai trò điều hành."
   },
   {
-    "STT": "10",
+    "STT": 10,
     "RU": "баланс",
     "EN": "balance",
     "VI": "số dư",
@@ -117,10 +144,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "từ đơn",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Có thể chỉ “số dư” hoặc “bảng cân đối” tùy ngữ cảnh."
   },
   {
-    "STT": "11",
+    "STT": 11,
     "RU": "банковская гарантия",
     "EN": "bank guarantee",
     "VI": "bảo lãnh ngân hàng",
@@ -129,10 +159,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "12",
+    "STT": 12,
     "RU": "банковская карта",
     "EN": "bank card",
     "VI": "thẻ ngân hàng",
@@ -141,10 +174,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "ghép nghĩa",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "13",
+    "STT": 13,
     "RU": "банковская комиссия",
     "EN": "bank fee",
     "VI": "phí ngân hàng",
@@ -153,10 +189,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "14",
+    "STT": 14,
     "RU": "банковский надзор",
     "EN": "banking supervision",
     "VI": "giám sát ngân hàng",
@@ -165,10 +204,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "15",
+    "STT": 15,
     "RU": "банковский счёт",
     "EN": "bank account",
     "VI": "tài khoản ngân hàng",
@@ -177,10 +219,13 @@
     "WordFormation_EN": "compound (N+N)",
     "WordFormation_VI": "ghép Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "16",
+    "STT": 16,
     "RU": "банкомат",
     "EN": "ATM",
     "VI": "máy ATM",
@@ -189,10 +234,13 @@
     "WordFormation_EN": "abbreviation",
     "WordFormation_VI": "vay mượn (viết tắt)",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "17",
+    "STT": 17,
     "RU": "брокер",
     "EN": "broker",
     "VI": "môi giới",
@@ -201,10 +249,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "dịch nghĩa",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "18",
+    "STT": 18,
     "RU": "валютный курс",
     "EN": "exchange rate",
     "VI": "tỷ giá hối đoái",
@@ -213,10 +264,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "19",
+    "STT": 19,
     "RU": "валютный риск",
     "EN": "foreign exchange risk",
     "VI": "rủi ro tỷ giá",
@@ -225,10 +279,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "20",
+    "STT": 20,
     "RU": "дебетовая карта",
     "EN": "debit card",
     "VI": "thẻ ghi nợ",
@@ -237,10 +294,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "ghép nghĩa",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "21",
+    "STT": 21,
     "RU": "денежно-кредитная политика",
     "EN": "monetary policy",
     "VI": "chính sách tiền tệ",
@@ -249,10 +309,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "22",
+    "STT": 22,
     "RU": "депозит",
     "EN": "deposit",
     "VI": "tiền gửi",
@@ -261,10 +324,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "dịch nghĩa",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "23",
+    "STT": 23,
     "RU": "дериватив",
     "EN": "derivative",
     "VI": "công cụ phái sinh",
@@ -273,10 +339,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Thuật ngữ vay mượn từ tiếng Anh."
   },
   {
-    "STT": "24",
+    "STT": 24,
     "RU": "доходность",
     "EN": "yield",
     "VI": "lợi suất",
@@ -285,10 +354,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "25",
+    "STT": 25,
     "RU": "заём",
     "EN": "borrowing / loan",
     "VI": "khoản vay",
@@ -297,10 +369,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "ghép nghĩa",
     "EquivalenceType": "n-1",
-    "EquivalenceStrength": "Medium"
+    "EquivalenceStrength": "Medium",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Phạm vi nghĩa rộng hơn “кредит”."
   },
   {
-    "STT": "26",
+    "STT": 26,
     "RU": "заёмщик",
     "EN": "borrower",
     "VI": "người vay",
@@ -309,10 +384,13 @@
     "WordFormation_EN": "derivation (-er)",
     "WordFormation_VI": "cụm danh từ",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "27",
+    "STT": 27,
     "RU": "залог",
     "EN": "collateral / pledge",
     "VI": "tài sản thế chấp",
@@ -321,10 +399,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Có thể gây nhầm lẫn với “thế chấp” trong tiếng Việt."
   },
   {
-    "STT": "28",
+    "STT": 28,
     "RU": "инвестиционный банк",
     "EN": "investment bank",
     "VI": "ngân hàng đầu tư",
@@ -333,10 +414,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "29",
+    "STT": 29,
     "RU": "инкассо",
     "EN": "collection",
     "VI": "nhờ thu",
@@ -345,10 +429,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "30",
+    "STT": 30,
     "RU": "интернет-банк",
     "EN": "online banking",
     "VI": "ngân hàng trực tuyến",
@@ -357,10 +444,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "ghép nghĩa",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "31",
+    "STT": 31,
     "RU": "ипотека",
     "EN": "mortgage",
     "VI": "thế chấp",
@@ -369,10 +459,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Cách gọi không hoàn toàn tương đương với thuật ngữ tiếng Việt thông dụng."
   },
   {
-    "STT": "32",
+    "STT": 32,
     "RU": "клиринг",
     "EN": "clearing",
     "VI": "bù trừ / thanh toán bù trừ",
@@ -381,10 +474,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "đa nghĩa",
     "EquivalenceType": "1-n",
-    "EquivalenceStrength": "Medium"
+    "EquivalenceStrength": "Medium",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Không đồng nhất hoàn toàn với “thanh toán”."
   },
   {
-    "STT": "33",
+    "STT": 33,
     "RU": "ключевая ставка",
     "EN": "key rate",
     "VI": "lãi suất chủ chốt / lãi suất điều hành",
@@ -393,10 +489,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "đa nghĩa",
     "EquivalenceType": "1-n",
-    "EquivalenceStrength": "Medium"
+    "EquivalenceStrength": "Medium",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Dễ nhầm với “базовая ставка”."
   },
   {
-    "STT": "34",
+    "STT": 34,
     "RU": "комплаенс",
     "EN": "compliance",
     "VI": "tuân thủ",
@@ -405,10 +504,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "dịch nghĩa",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Thuật ngữ vay mượn từ tiếng Anh."
   },
   {
-    "STT": "35",
+    "STT": 35,
     "RU": "кредит",
     "EN": "loan / credit",
     "VI": "khoản vay / tín dụng",
@@ -417,10 +519,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "đa nghĩa (Hán–Việt)",
     "EquivalenceType": "n-1",
-    "EquivalenceStrength": "Medium"
+    "EquivalenceStrength": "Medium",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Không hoàn toàn tương đương với “loan” trong tiếng Anh."
   },
   {
-    "STT": "36",
+    "STT": 36,
     "RU": "кредитная карта",
     "EN": "credit card",
     "VI": "thẻ tín dụng",
@@ -429,10 +534,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "ghép Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "37",
+    "STT": 37,
     "RU": "кредитная линия",
     "EN": "credit line",
     "VI": "hạn mức tín dụng",
@@ -441,10 +549,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "38",
+    "STT": 38,
     "RU": "кредитный договор",
     "EN": "loan agreement",
     "VI": "hợp đồng tín dụng",
@@ -453,10 +564,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "39",
+    "STT": 39,
     "RU": "кредитный риск",
     "EN": "credit risk",
     "VI": "rủi ro tín dụng",
@@ -465,10 +579,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "40",
+    "STT": 40,
     "RU": "кредитор",
     "EN": "lender / creditor",
     "VI": "người cho vay / chủ nợ",
@@ -477,10 +594,13 @@
     "WordFormation_EN": "derivation (-or)",
     "WordFormation_VI": "đa nghĩa",
     "EquivalenceType": "1-n",
-    "EquivalenceStrength": "Medium"
+    "EquivalenceStrength": "Medium",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "41",
+    "STT": 41,
     "RU": "кредитоспособность",
     "EN": "creditworthiness",
     "VI": "khả năng tín dụng",
@@ -489,10 +609,13 @@
     "WordFormation_EN": "derivation (-ness)",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "42",
+    "STT": 42,
     "RU": "лизинг",
     "EN": "leasing",
     "VI": "cho thuê tài chính",
@@ -501,10 +624,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "43",
+    "STT": 43,
     "RU": "лицензия банка",
     "EN": "banking license",
     "VI": "giấy phép ngân hàng",
@@ -513,10 +639,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "44",
+    "STT": 44,
     "RU": "льготный период",
     "EN": "grace period",
     "VI": "thời gian ân hạn",
@@ -525,10 +654,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "45",
+    "STT": 45,
     "RU": "маржа",
     "EN": "margin",
     "VI": "ký quỹ / lãi biên",
@@ -537,10 +669,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "đa nghĩa",
     "EquivalenceType": "1-n",
-    "EquivalenceStrength": "Medium"
+    "EquivalenceStrength": "Medium",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Có thể mang nghĩa ký quỹ hoặc chênh lệch lãi suất tùy ngữ cảnh."
   },
   {
-    "STT": "46",
+    "STT": 46,
     "RU": "международные резервы",
     "EN": "international reserves",
     "VI": "dự trữ ngoại hối",
@@ -549,10 +684,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "47",
+    "STT": 47,
     "RU": "наличные",
     "EN": "cash",
     "VI": "tiền mặt",
@@ -561,10 +699,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "ghép nghĩa",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "48",
+    "STT": 48,
     "RU": "необеспеченный кредит",
     "EN": "unsecured loan",
     "VI": "khoản vay không bảo đảm",
@@ -573,10 +714,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "49",
+    "STT": 49,
     "RU": "норматив достаточности капитала",
     "EN": "capital adequacy ratio",
     "VI": "tỷ lệ an toàn vốn",
@@ -585,10 +729,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "50",
+    "STT": 50,
     "RU": "норматив Н1",
     "EN": "capital adequacy norm (N1)",
     "VI": "chỉ tiêu N1",
@@ -597,10 +744,13 @@
     "WordFormation_EN": "abbreviation",
     "WordFormation_VI": "vay mượn + chú thích",
     "EquivalenceType": "zero",
-    "EquivalenceStrength": "Low"
+    "EquivalenceStrength": "Low",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Ký hiệu chuẩn, không dịch nghĩa thành phần."
   },
   {
-    "STT": "51",
+    "STT": 51,
     "RU": "обеспечение",
     "EN": "security / collateral",
     "VI": "tài sản bảo đảm",
@@ -609,10 +759,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "đa nghĩa",
     "EquivalenceType": "1-n",
-    "EquivalenceStrength": "Medium"
+    "EquivalenceStrength": "Medium",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Có thể bao gồm tài sản hữu hình và bảo lãnh phi vật chất."
   },
   {
-    "STT": "52",
+    "STT": 52,
     "RU": "обеспеченный кредит",
     "EN": "secured loan",
     "VI": "khoản vay có bảo đảm",
@@ -621,10 +774,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "53",
+    "STT": 53,
     "RU": "облигация",
     "EN": "bond",
     "VI": "trái phiếu",
@@ -633,10 +789,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "54",
+    "STT": 54,
     "RU": "обмен валюты",
     "EN": "currency exchange",
     "VI": "đổi ngoại tệ",
@@ -645,10 +804,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "55",
+    "STT": 55,
     "RU": "обслуживание счёта",
     "EN": "account maintenance",
     "VI": "duy trì tài khoản",
@@ -657,10 +819,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "cụm danh từ",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "56",
+    "STT": 56,
     "RU": "операционный риск",
     "EN": "operational risk",
     "VI": "rủi ro hoạt động",
@@ -669,10 +834,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "57",
+    "STT": 57,
     "RU": "оплата по карте",
     "EN": "card payment",
     "VI": "thanh toán bằng thẻ",
@@ -681,10 +849,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "cụm danh từ",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "58",
+    "STT": 58,
     "RU": "отделение банка",
     "EN": "bank branch",
     "VI": "chi nhánh ngân hàng",
@@ -693,10 +864,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "ghép Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "59",
+    "STT": 59,
     "RU": "открыть счёт",
     "EN": "open an account",
     "VI": "mở tài khoản",
@@ -705,10 +879,13 @@
     "WordFormation_EN": "verb phrase",
     "WordFormation_VI": "cụm động từ",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "60",
+    "STT": 60,
     "RU": "отчётность",
     "EN": "reporting",
     "VI": "báo cáo",
@@ -717,10 +894,13 @@
     "WordFormation_EN": "derivation",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "61",
+    "STT": 61,
     "RU": "первичное размещение (IPO)",
     "EN": "initial public offering (IPO)",
     "VI": "phát hành lần đầu (IPO)",
@@ -729,10 +909,13 @@
     "WordFormation_EN": "abbreviation",
     "WordFormation_VI": "vay mượn",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "62",
+    "STT": 62,
     "RU": "перевод",
     "EN": "transfer",
     "VI": "chuyển tiền / chuyển khoản",
@@ -741,10 +924,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "đa nghĩa (thuần Việt)",
     "EquivalenceType": "1-n",
-    "EquivalenceStrength": "Medium"
+    "EquivalenceStrength": "Medium",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Có thể chỉ chuyển nội bộ hoặc liên ngân hàng."
   },
   {
-    "STT": "63",
+    "STT": 63,
     "RU": "плавающая ставка",
     "EN": "floating rate",
     "VI": "lãi suất thả nổi",
@@ -753,10 +939,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "64",
+    "STT": 64,
     "RU": "платёж",
     "EN": "payment",
     "VI": "thanh toán",
@@ -765,10 +954,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "65",
+    "STT": 65,
     "RU": "платёжеспособность",
     "EN": "solvency",
     "VI": "khả năng thanh toán",
@@ -777,10 +969,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "cụm danh từ",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "66",
+    "STT": 66,
     "RU": "погашение кредита",
     "EN": "loan repayment",
     "VI": "trả nợ vay",
@@ -789,10 +984,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "cụm động từ",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "67",
+    "STT": 67,
     "RU": "покрытие риска",
     "EN": "risk coverage",
     "VI": "bảo hiểm rủi ro",
@@ -801,10 +999,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "ghép Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "68",
+    "STT": 68,
     "RU": "портфель инвестиций",
     "EN": "investment portfolio",
     "VI": "danh mục đầu tư",
@@ -813,10 +1014,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "69",
+    "STT": 69,
     "RU": "поручитель",
     "EN": "guarantor",
     "VI": "người bảo lãnh",
@@ -825,10 +1029,13 @@
     "WordFormation_EN": "derivation",
     "WordFormation_VI": "cụm danh từ",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "70",
+    "STT": 70,
     "RU": "просрочка",
     "EN": "overdue / default",
     "VI": "nợ quá hạn",
@@ -837,10 +1044,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Có thể phân biệt overdue và default theo mức độ."
   },
   {
-    "STT": "71",
+    "STT": 71,
     "RU": "процентная ставка",
     "EN": "interest rate",
     "VI": "lãi suất",
@@ -849,10 +1059,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "72",
+    "STT": 72,
     "RU": "процентные расходы",
     "EN": "interest expenses",
     "VI": "chi phí lãi vay",
@@ -861,10 +1074,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "73",
+    "STT": 73,
     "RU": "процентный доход",
     "EN": "interest income",
     "VI": "thu nhập từ lãi",
@@ -873,10 +1089,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "74",
+    "STT": 74,
     "RU": "рассрочка",
     "EN": "installment plan",
     "VI": "trả góp",
@@ -885,10 +1104,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "từ đơn",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "75",
+    "STT": 75,
     "RU": "расчётный счёт",
     "EN": "settlement account",
     "VI": "tài khoản thanh toán",
@@ -897,10 +1119,13 @@
     "WordFormation_EN": "compound (N+N)",
     "WordFormation_VI": "ghép Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "76",
+    "STT": 76,
     "RU": "расчёты",
     "EN": "settlements",
     "VI": "thanh toán",
@@ -909,10 +1134,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "n-1",
-    "EquivalenceStrength": "Medium"
+    "EquivalenceStrength": "Medium",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "77",
+    "STT": 77,
     "RU": "регулирование",
     "EN": "regulation",
     "VI": "điều tiết / điều chỉnh",
@@ -921,10 +1149,13 @@
     "WordFormation_EN": "derivation",
     "WordFormation_VI": "đa nghĩa",
     "EquivalenceType": "1-n",
-    "EquivalenceStrength": "Medium"
+    "EquivalenceStrength": "Medium",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "78",
+    "STT": 78,
     "RU": "резервные требования",
     "EN": "reserve requirements",
     "VI": "yêu cầu dự trữ",
@@ -933,10 +1164,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "79",
+    "STT": 79,
     "RU": "риск-менеджмент",
     "EN": "risk management",
     "VI": "quản trị rủi ro",
@@ -945,10 +1179,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "80",
+    "STT": 80,
     "RU": "рыночный риск",
     "EN": "market risk",
     "VI": "rủi ro thị trường",
@@ -957,10 +1194,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "81",
+    "STT": 81,
     "RU": "СБП (Система быстрых платежей)",
     "EN": "Faster Payments System (SBP)",
     "VI": "(không có tương đương chuẩn)",
@@ -969,10 +1209,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "giữ nguyên + giải thích",
     "EquivalenceType": "zero",
-    "EquivalenceStrength": "Low"
+    "EquivalenceStrength": "Low",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": "Không có tương đương trực tiếp trong tiếng Việt."
   },
   {
-    "STT": "82",
+    "STT": 82,
     "RU": "снятие наличных",
     "EN": "cash withdrawal",
     "VI": "rút tiền mặt",
@@ -981,10 +1224,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "cụm động từ",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "83",
+    "STT": 83,
     "RU": "спред",
     "EN": "spread",
     "VI": "chênh lệch (lãi suất)",
@@ -993,10 +1239,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "dịch nghĩa",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "84",
+    "STT": 84,
     "RU": "ссуда",
     "EN": "loan",
     "VI": "khoản vay",
@@ -1005,10 +1254,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "ghép nghĩa",
     "EquivalenceType": "n-1",
-    "EquivalenceStrength": "Medium"
+    "EquivalenceStrength": "Medium",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "85",
+    "STT": 85,
     "RU": "ставка дисконтирования",
     "EN": "discount rate",
     "VI": "lãi suất chiết khấu",
@@ -1017,10 +1269,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "86",
+    "STT": 86,
     "RU": "ставка рефинансирования",
     "EN": "refinancing rate",
     "VI": "lãi suất tái cấp vốn",
@@ -1029,10 +1284,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "87",
+    "STT": 87,
     "RU": "стоимость капитала",
     "EN": "cost of capital",
     "VI": "chi phí vốn",
@@ -1041,10 +1299,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "88",
+    "STT": 88,
     "RU": "страхование кредита",
     "EN": "credit insurance",
     "VI": "bảo hiểm tín dụng",
@@ -1053,10 +1314,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "89",
+    "STT": 89,
     "RU": "стресс-тест",
     "EN": "stress test",
     "VI": "kiểm tra sức chịu đựng (stress test)",
@@ -1065,10 +1329,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "dịch nghĩa + vay mượn",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "90",
+    "STT": 90,
     "RU": "субординированный долг",
     "EN": "subordinated debt",
     "VI": "nợ thứ cấp",
@@ -1077,10 +1344,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "91",
+    "STT": 91,
     "RU": "тело кредита",
     "EN": "principal",
     "VI": "gốc vay",
@@ -1089,10 +1359,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "cụm danh từ",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "92",
+    "STT": 92,
     "RU": "условия кредита",
     "EN": "loan terms",
     "VI": "điều khoản vay",
@@ -1101,10 +1374,13 @@
     "WordFormation_EN": "noun phrase",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "93",
+    "STT": 93,
     "RU": "факторинг",
     "EN": "factoring",
     "VI": "bao thanh toán",
@@ -1113,10 +1389,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "94",
+    "STT": 94,
     "RU": "фиксированная ставка",
     "EN": "fixed rate",
     "VI": "lãi suất cố định",
@@ -1125,10 +1404,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "95",
+    "STT": 95,
     "RU": "финансовый рынок",
     "EN": "financial market",
     "VI": "thị trường tài chính",
@@ -1137,10 +1419,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "96",
+    "STT": 96,
     "RU": "фондовый рынок",
     "EN": "stock market",
     "VI": "thị trường chứng khoán",
@@ -1149,10 +1434,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "97",
+    "STT": 97,
     "RU": "ценные бумаги",
     "EN": "securities",
     "VI": "chứng khoán / giấy tờ có giá",
@@ -1161,10 +1449,13 @@
     "WordFormation_EN": "simple",
     "WordFormation_VI": "đa nghĩa",
     "EquivalenceType": "1-n",
-    "EquivalenceStrength": "Medium"
+    "EquivalenceStrength": "Medium",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "98",
+    "STT": 98,
     "RU": "центральный банк",
     "EN": "central bank",
     "VI": "ngân hàng trung ương",
@@ -1173,10 +1464,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "99",
+    "STT": 99,
     "RU": "электронные платежи",
     "EN": "electronic payments",
     "VI": "thanh toán điện tử",
@@ -1185,10 +1479,13 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "ghép Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   },
   {
-    "STT": "100",
+    "STT": 100,
     "RU": "эффективная ставка",
     "EN": "effective rate",
     "VI": "lãi suất hiệu quả",
@@ -1197,6 +1494,9 @@
     "WordFormation_EN": "compound",
     "WordFormation_VI": "Hán–Việt",
     "EquivalenceType": "1-1",
-    "EquivalenceStrength": "High"
+    "EquivalenceStrength": "High",
+    "ConceptualMeaning": "",
+    "PragmaticMeaning": "",
+    "SemanticNote": NaN
   }
 ]
