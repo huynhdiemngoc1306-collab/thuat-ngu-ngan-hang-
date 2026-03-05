@@ -60,10 +60,10 @@ function applyFilters(){
     if (wfRu && t.WordFormation_RU !== wfRu) return false;
     if (strength && t.EquivalenceStrength !== strength) return false;
 
-    if (!q) return true;
+    if (!q) return false;  // ← Chỉ lọc khi có search hoặc filter, ban đầu không hiện gì
 
     const hay = [
-      t.STT, t.RU, t.EN, t.VI, t.Domain,
+      t.RU, t.EN, t.VI, t.Domain,
       t.WordFormation_RU, t.WordFormation_EN, t.WordFormation_VI,
       t.EquivalenceType, t.EquivalenceStrength
     ].map(norm).join(" | ");
@@ -74,7 +74,6 @@ function applyFilters(){
   renderTable();
   renderStats();
 }
-
 function escapeHtml(s){
   return (s ?? "").toString()
     .replaceAll("&","&amp;")
@@ -85,6 +84,15 @@ function escapeHtml(s){
 
 function renderTable(){
   rowsEl.innerHTML = "";
+  const noResultsEl = document.getElementById("noResults");
+
+  if (FILTERED.length === 0) {
+    noResultsEl.style.display = "block";  // Hiện thông báo
+    return;
+  }
+
+  noResultsEl.style.display = "none";  // Ẩn thông báo nếu có kết quả
+
   const frag = document.createDocumentFragment();
 
   FILTERED.forEach((t, idx)=>{
@@ -103,7 +111,6 @@ function renderTable(){
 
   rowsEl.appendChild(frag);
 }
-
 function renderStats(){
   statsEl.textContent = `Hiển thị ${FILTERED.length} / ${TERMS.length} thuật ngữ`;
 }
@@ -142,7 +149,6 @@ async function loadData(){
   if (!res.ok) throw new Error("Không tải được terms.json");
   TERMS = await res.json();
 
-  // Đảm bảo có đủ keys
   TERMS = TERMS.map(t=>({
     RU: t.RU ?? "",
     EN: t.EN ?? "",
@@ -162,9 +168,11 @@ async function loadData(){
   TERMS.sort((a, b) => a.RU.localeCompare(b.RU, 'ru'));
 
   buildFilters();
-  FILTERED = TERMS.slice();
-  renderTable();
-  renderStats();
+
+  // Ban đầu: không render toàn bộ, để bảng trống
+  FILTERED = [];  // ← thay vì TERMS.slice()
+  renderTable();  // sẽ hiện thông báo "Chưa có kết quả"
+  renderStats();  // cập nhật stats ban đầu
 }
 function bindEvents(){
   qEl.addEventListener("input", applyFilters);
