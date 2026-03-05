@@ -1,11 +1,7 @@
-// Khởi tạo biến toàn cục
 let TERMS = [];
 let FILTERED = [];
 
-// Hàm tiện ích lấy element
 const el = (id) => document.getElementById(id);
-
-// Các element chính
 const qEl = el("q");
 const domainEl = el("domain");
 const eqTypeEl = el("eqType");
@@ -16,13 +12,11 @@ const statsEl = el("stats");
 const modalEl = el("modal");
 const closeModalEl = el("closeModal");
 
-// Hàm set text (nếu không có dữ liệu thì hiển thị "không có kết quả")
 const setText = (id, value) => { 
   const elem = el(id); 
   if (elem) elem.textContent = value || "không có kết quả"; 
 };
 
-// Chuẩn hóa chuỗi tìm kiếm (xóa dấu tiếng Việt, lowercase)
 function norm(str) {
   return (str ?? "")
     .toString()
@@ -32,13 +26,11 @@ function norm(str) {
     .replace(/[\u0300-\u036f]/g, "");
 }
 
-// Lấy danh sách unique và sắp xếp
 function uniq(values) {
   return [...new Set(values.filter(v => (v ?? "").toString().trim() !== "").map(v => v.toString().trim()))]
     .sort((a, b) => a.localeCompare(b, "vi"));
 }
 
-// Đổ dữ liệu vào select filter
 function fillSelect(selectEl, values) {
   const current = selectEl.value;
   while (selectEl.options.length > 1) selectEl.remove(1);
@@ -51,7 +43,6 @@ function fillSelect(selectEl, values) {
   if ([...selectEl.options].some(o => o.value === current)) selectEl.value = current;
 }
 
-// Xây dựng các filter từ dữ liệu TERMS
 function buildFilters() {
   fillSelect(domainEl, uniq(TERMS.map(x => x.Domain)));
   fillSelect(eqTypeEl, uniq(TERMS.map(x => x.EquivalenceType)));
@@ -59,7 +50,6 @@ function buildFilters() {
   fillSelect(strengthEl, uniq(TERMS.map(x => x.EquivalenceStrength)));
 }
 
-// Áp dụng bộ lọc và tìm kiếm
 function applyFilters() {
   const q = norm(qEl.value);
   const domain = domainEl.value;
@@ -73,7 +63,6 @@ function applyFilters() {
     if (wfRu && t.WordFormation_RU !== wfRu) return false;
     if (strength && t.EquivalenceStrength !== strength) return false;
 
-    // Ban đầu không hiện gì nếu không có tìm kiếm hoặc filter
     if (!q && !domain && !eqType && !wfRu && !strength) return false;
 
     const hay = [
@@ -90,7 +79,6 @@ function applyFilters() {
   renderStats();
 }
 
-// Escape HTML để tránh lỗi XSS
 function escapeHtml(s) {
   return (s ?? "").toString()
     .replace(/&/g, "&amp;")
@@ -100,7 +88,6 @@ function escapeHtml(s) {
     .replace(/'/g, "&#039;");
 }
 
-// Render bảng kết quả (không có STT)
 function renderTable() {
   rowsEl.innerHTML = "";
   const noResultsEl = document.getElementById("noResults");
@@ -134,12 +121,10 @@ function renderTable() {
   rowsEl.appendChild(frag);
 }
 
-// Cập nhật thống kê hiển thị
 function renderStats() {
   statsEl.textContent = `Hiển thị ${FILTERED.length} / ${TERMS.length} thuật ngữ`;
 }
 
-// Mở modal chi tiết khi click dòng
 function openModalByIndex(idx) {
   const t = FILTERED[idx];
   if (!t) return;
@@ -155,15 +140,20 @@ function openModalByIndex(idx) {
 
   modalEl.classList.add("show");
   modalEl.setAttribute("aria-hidden", "false");
+
+  // Reset toggle khi mở modal
+  document.querySelectorAll(".expandable").forEach(el => el.classList.remove("expanded"));
+  document.querySelectorAll(".toggle-btn").forEach(btn => {
+    btn.textContent = "Xem thêm";
+    btn.classList.remove("expanded");
+  });
 }
 
-// Đóng modal
 function closeModal() {
   modalEl.classList.remove("show");
   modalEl.setAttribute("aria-hidden", "true");
 }
 
-// Load dữ liệu từ terms.json
 async function loadData() {
   try {
     const res = await fetch("./terms.json", { cache: "no-store" });
@@ -185,12 +175,10 @@ async function loadData() {
       SemanticNote: t.SemanticNote ?? ""
     }));
 
-    // Sắp xếp theo RU (bảng chữ cái tiếng Nga)
     TERMS.sort((a, b) => a.RU.localeCompare(b.RU, 'ru'));
 
     buildFilters();
 
-    // Ban đầu bảng trống
     FILTERED = [];
     renderTable();
     renderStats();
@@ -199,7 +187,6 @@ async function loadData() {
   }
 }
 
-// Gắn sự kiện
 function bindEvents() {
   qEl.addEventListener("input", applyFilters);
   domainEl.addEventListener("change", applyFilters);
@@ -232,14 +219,31 @@ function bindEvents() {
   });
 
   document.addEventListener("click", async (e) => {
-    const btn = e.target.closest("[data-copy]");
-    if (!btn) return;
-    const targetId = btn.getAttribute("data-copy");
+    const btn = e.target.closest(".toggle-btn");
+    if (btn) {
+      const targetId = btn.getAttribute("data-target");
+      const content = el(targetId);
+      const section = btn.closest(".expandable");
+
+      if (section.classList.contains("expanded")) {
+        section.classList.remove("expanded");
+        btn.textContent = "Xem thêm";
+        btn.classList.remove("expanded");
+      } else {
+        section.classList.add("expanded");
+        btn.textContent = "Thu gọn";
+        btn.classList.add("expanded");
+      }
+    }
+
+    const copyBtn = e.target.closest("[data-copy]");
+    if (!copyBtn) return;
+    const targetId = copyBtn.getAttribute("data-copy");
     const text = el(targetId)?.textContent ?? "";
     try {
       await navigator.clipboard.writeText(text);
-      btn.textContent = "Copied";
-      setTimeout(() => btn.textContent = "Copy", 800);
+      copyBtn.textContent = "Copied";
+      setTimeout(() => copyBtn.textContent = "Copy", 800);
     } catch {
       const ta = document.createElement("textarea");
       ta.value = text;
@@ -247,13 +251,12 @@ function bindEvents() {
       ta.select();
       document.execCommand("copy");
       ta.remove();
-      btn.textContent = "Copied";
-      setTimeout(() => btn.textContent = "Copy", 800);
+      copyBtn.textContent = "Copied";
+      setTimeout(() => copyBtn.textContent = "Copy", 800);
     }
   });
 }
 
-// Khởi chạy ứng dụng
 (async function init() {
   bindEvents();
   await loadData();
